@@ -1,0 +1,98 @@
+design for a small desktop app/ pda app / cell phone game
+
+keep it 2D
+
+simple monster raising w/evolution : clone + enhanced digivice.
+
+basic networking...
+connect... attack name & strength... result..
+
+basic combat system - Active...turn based.
+  fullness - ticks down.  overfeed hurts combat.
+  independance - how much the monster relies on player.  A lot at first. eventually the monster may make decisions for itself.
+  Respect - how much respect the monster has for the player.  Low and the monster will not listen to the player.
+  Mood - (ok, afraid, agressive, happy, excited, depressed) - effects everything.
+  emotional state (repulse/Interest (effected by status), Posative/negative(effected by traits and player treatment), timid/agressive (affected by how player treats it))
+  Element
+  Aspect
+  Species
+  alignment
+  Age
+  Combat Style (Attacker, Tank, INT, AGI)
+  Effects(Sick, Poison, Slow, Stun, )
+  6 attacks.
+  2 defenses.
+  Health spent in some powerful attacks. at zero pass out.
+  Stamina spent in attacks. at zero you pass out
+    Strength - Damage for physical attacks
+    Focus - Damage for Agi/Int Skills / Accuracy bonuses
+    Soak - Damage reduction from physical
+    Resistance - Damage reduction from specials / elemental modified
+    Agility - dodge ability - bonus for AGI skills
+    Dex - how often attacks connect vs agi. bonuses to attack speeds
+    
+Attack Properties:
+  Speed
+  Cooldown
+  STaCost
+  HPCost
+  Effect
+  element [stackable]
+  Type
+  Special (this heals...activates a pre-built function)
+
+Combat order:
+  Agility + Dex determine rate of recharge from an initial cooldown.
+  Combatant chooses attack which hits or not...
+    if Speed of attack allows for defender to react, a defense may be taken.  
+    If defense is taken, DefenseCoolDown is set.
+  Attack determines Cooldown.
+  Repeat until concede,run, or KO (or time limit in tournaments).
+
+
+Areas offer:
+  (background image)
+  random encounters based on surrounding
+  Chance to learn new skills.
+  different training exercises
+  background elements
+  random events that may shape alignment
+  access to other areas under conditions...
+    a skill type
+    a growth level (min or max)
+    a resistance level
+  
+Training Events based on area..
+  Each activity will be used to increase an attribute
+  some will work for some types of attacks (training attribute and element)
+  Success chances effected by Combat Type, alignment and aspects
+  Time and Stamina (and some times health) will be effected and effect Success rate.
+  
+Care menu Options...
+  Train
+    Skill Train - lists trainable skills
+    Area Exercise - lists available
+  Explore
+    Randomly
+      Encounter (may drop a food item)
+      Discover a new skill
+      Discover a new area link
+      Non-Combat encounter (moral decision, may involve skill use)
+      Discover a food item
+  Migrate
+    Attempt to go to an adjacent area.
+      Encoutner probability high (combat,non-combat)
+  Connect
+    Attempt to connect to someone else through internet.  IP direct only.
+  Rest
+    Make monster rest to recover HP, STA, status effects
+    If evo conditions are met, chance to evolve over night.
+  Feed
+    Use food items
+      Decrease hunger / increase growth rate
+      Cure ailments
+      Heal Wounds
+  Maintain
+    play animation (clean poop, play with, pet, talk (may happen automatically))
+  
+  

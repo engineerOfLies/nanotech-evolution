@@ -1,0 +1,70 @@
+Art Specs for Nanotech Evolution: Virtual Pet
+
+Each monster is represented by a sprite, organized into a sprite sheet.
+There are 16 frames in total:
+1 idle [front view]
+2 idle
+3 idle
+4 Happy
+5 Happy
+6 Sad
+7 Sad
+8 Asleep
+9 Attack 1 [Side view] Ranged
+10 Attack 1
+11 Attack 2              Power
+12 Attack 2
+13 Attack 3                 Other
+14 Attack 3
+15 Pain
+16 K-O
+
+Since the focus of the game is the monster and raising it, the monster should be a relatively large sprite.  Smaller monsters should weigh in around 64 X 64 pixels, average sized monsters should be within 128X128 with larger monsters able to be up to 192 X 192.
+
+monster styles:
+Each of the monsters in the [initial] game will be based in one of these 5 major races (as the game grows I intend to add more).
+  Lizard
+  Bird
+  Mammal
+  Insect
+  Plant
+
+after the first evolution they will show signs of a growth style or aspect:
+  Humanoid - grows to be bipedal, eventually looking more like an armored knight...
+  Beast - Emphasizes the animal traits, eventually becoming massive and totally animal like
+  Machine - Starts to become more machine than bio.  Final stages total mecha godzilla.
+  Techno-organic - Fusion of bio and machine.  Early stages look like cyborgs, later stages are more clean.
+  Spirit - Emphasizes special abilities.  Looking more like an sorcerer or angel/demon
+  
+The next stage will still show the growth aspect, but will show subtle elemental influences from the 5 basic elements in the game (palette swapping):
+  Earth
+  Water
+  Air
+  Fire
+  Lightning
+
+The final stages will differentiate to showcase the alignment of the monster:
+  Holy - Angelic in appearance
+  Dark - Demonic
+  Normal - Meh
+
+Backgrounds are intended to be 480 by 320 to allow for panning in combat.
+
+Basic terrain types:
+plains
+fields
+mountains
+Volcanos
+forrests
+jungle
+shore
+tundra
+arctic
+caves
+crystal caverns
+Stormy Land
+desert
+
+
+
+
